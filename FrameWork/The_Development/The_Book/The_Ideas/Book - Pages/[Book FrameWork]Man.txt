@@ -1,0 +1,29 @@
+[Book FrameWork]::LeaderShip
+Element : Your Definition / Identity
+A: The Author
+B: The Pleader
+0: The Child
+1: The Servant
+2: The Lover
+3: The Leader
+4: The Master
+5: The Man
+6: The Bishop
+7: The Knight
+8: The Lord
+9: The King
+
+[Book FrameWork]::Personality
+Element : Your Definition / Identity
+A: The Smart Man
+B: The Linguist
+0: The Yes Man
+1: The FaithFull Man
+2: The Gentle Man
+3: The Family Guy
+4: The Talented / The Business Man
+5: The Action Man
+6: The Pure Man
+7: The Holy Man
+8: The Wise Man
+9: The Strong Man

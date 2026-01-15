@@ -1,0 +1,13 @@
+[Book FrameWork]::Collection
+A: The Book Of Your Destiny Development
+B: The Book Of Your Destiny Language
+0: The Book Of Your Birth
+1: The Book Of Your Faith
+2: The Book Of Your Love
+3: The Book Of Your Children
+4: The Book Of Your Support
+5: The Book Of Your Personality
+6: The Book Of Your Prime Directives
+7: The Book Of Your Justice
+8: The Book Of Your Destiny Plan
+9: The Book Of Your Resistance

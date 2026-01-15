@@ -1,0 +1,130 @@
+{
+	"FrameWork": {
+		"Name": "SemanticOS",
+		"Version": {
+			"Number": "1.0.0",
+			"Type": "Master",
+			"Created": "14-01-2026",
+			"Notes": "Initial Schema Definition"
+		},
+		"System": {
+			"Environment": {
+				"Variables": {
+					"Path": ["Xampp/php.exe", "System32/Cmd.exe"],
+					"Mode": "Production",
+					"FS_Write_Default": "Allowed"
+				},
+				"Capabilities": ["NetWork.Access", "FileSystem.Read", "FileSystem.Write"],
+				"ProFiles": {
+					"Production": {
+					  "Variables": {
+						"Mode": "Production",
+						"FS_Write_Default": "Allowed",
+						"Net_Default": "Allowed"
+					  },
+					  "Capabilities": [
+						"FileSystem.Read", "FileSystem.Write", "NetWork.Access", "NetWork.dns", "NetWork.http"
+					},
+					"SafeMode": {
+					  "Variables": {
+						"Mode": "Safe",
+						"FS_Write_Default": "Denied",
+						"Net_Default": "Denied"
+					  },
+					  "Capabilities": [
+						"FileSystem.Read", "NetWork.dns"
+					  ]
+					},
+					"ReadOnly": {
+					  "Variables": {
+						"Mode": "ReadOnly",
+						"FS_Write_Default": "Denied"
+					  },
+					  "Capabilities": [
+						"FileSystem.Read"
+					  ]
+					},
+					"Offline": {
+						"Variables": {
+							"Mode": "Offline",
+							"Net_Default": "Denied"
+						},
+						"Capabilities": []
+					},
+					"Diagnostic": {
+						"Variables": {
+							"Mode": "Diagnostic",
+							"Net_Default": "Restricted"
+						},
+						"Capabilities": ["NetWork.dns"]
+					}
+				},
+				"Bindings": {
+					"DefaultShell": "Proc.Shell",
+					"NetWorkDriver": "Drv.Net"
+				}
+			},
+			"Permissions": [
+				{
+					"Role": "Admin",
+					"Can": ["NetWork.Access", "NetWork.dns", "NetWork.http"]
+				},
+				{
+					"Role": "Service",
+					"Can": ["NetWork.http"]
+				},
+				{
+					"Role": "User",
+					"Can": ["NetWork.http"]
+				}
+			],
+			"services": [{
+				"Id": "svc.network",
+				"Type": "NetworkService",
+				"Operations": {
+				  "Connect": {
+					"Id": "Network.Connect",
+					"InPuts": ["Host", "Port"],
+					"OutPuts": ["ConnectionId"],
+					"Requires": ["NetWork.Access"]
+				  },
+				  "Send": {
+					"Id": "Network.Send",
+					"InPuts": ["ConnectionId", "Data"],
+					"OutPuts": ["Status"],
+					"Requires": ["NetWork.Access"]
+				  },
+				  "Receive": {
+					"Id": "NetWork.Receive",
+					"InPuts": ["ConnectionId"],
+					"OutPuts": ["Data"],
+					"Requires": ["NetWork.Access"]
+				  },
+				  "DnsLookup": {
+					"Id": "NetWork.dns",
+					"InPuts": ["HostName"],
+					"OutPuts": ["IP"],
+					"Requires": ["NetWork.dns"]
+				  }
+				}
+			  }
+			]
+		},
+		"Runtime": {
+			"Rules": {
+				"BeforeOperation": [
+					{
+					  "Match": { "Service": "svc.network" },
+					  "Check": [
+						"Env.Capabilities Contains 'NetWork.Access'",
+						"Env.variables.Net_Default != 'Denied'",
+						"Permission.Allows('NetWork.Access', Host)"
+					  ],
+					  "OnFail": "Deny"
+					}
+				]
+			}
+		},
+		"Storage": {}
+	}
+}

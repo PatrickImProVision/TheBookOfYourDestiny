@@ -1,0 +1,14 @@
+[Book FrameWork]::UniversalLanguageDisplay
+Display A: [A][A][A]
+Display B: [B][B][B]
+Display 0: [0][0][0]
+Display 1: [1][1][1]
+Display 2: [2][2][2]
+Display 3: [3][3][3]
+Display 4: [4][4][4]
+Display 5: [5][5][5]
+Display 6: [6][6][6]
+Display 7: [7][7][7]
+Display 8: [8][8][8]
+Display 9: [9][9][9]
+

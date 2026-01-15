@@ -1,0 +1,2 @@
+[Book FrameWork]::TitleDetail
+The Fundamental Stone Of Life

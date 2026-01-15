@@ -1,0 +1,15 @@
+[Book FrameWork]::UniversalColourLanguage
+0 : White – Good and Life
+1 : Blue – Ideas and Knowledge
+2 : Red – Love and FriendShip
+3 : Green – Law and Rights
+4 : Black – Evil and Death
+
+Rule:
+Three Colour Scheme must be used on Each Following Collection Name to Match the content inside the collection.
+
+Condition:
+The Colour Must Be Kept In Order According To The Colour Number.
+Example : 1,2,4 Instead Of 2,1,4 Or Any That Fits(random selection).
+So that The Reader UnderStands The Content.
+Create Collection Index With Colour According To FrameWork: Universal Language -> Rules

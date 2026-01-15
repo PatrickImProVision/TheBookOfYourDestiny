@@ -1,0 +1,13 @@
+[Book FrameWork]::CollectionDetail
+A: The Fundamental Stone Of Life
+B: The Fundamental Stone Of Bible
+0: The Fundamental Stone Of Power
+1: The Fundamental Stone Of Trust
+2: The Fundamental Stone Of PurPose
+3: The Fundamental Stone Of Aspiration
+4: The Fundamental Stone Of Determination
+5: The Fundamental Stone Of Attributes
+6: The Fundamental Stone Of Good 
+7: The Fundamental Stone Of Promise
+8: The Fundamental Stone Of Time 
+9: The Fundamental Stone Of Evil

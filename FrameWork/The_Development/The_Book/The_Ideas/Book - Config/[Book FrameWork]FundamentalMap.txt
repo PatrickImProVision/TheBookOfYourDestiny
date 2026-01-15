@@ -1,0 +1,79 @@
+[Book FrameWork]::FundamentalMap
+
+System Logic Configuration:
+The Book FrameWork : The Universal Language -> The Rules -> The Conditions -> The Statements/The Commands
+
+The Rule As { A, B, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } = 12 Elements
+The Condition As { A, B, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } = 12 Elements
+The Statement/The Command As { A, B, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } = 12 Elements
+
+User Logic Configuration:
+The Book FrameWork : The MileStone -> The FlagStones -> The StepStones -> The TouchStones
+
+The FlagStone As { A, B, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } = 12 Elements
+The StepStone As { A, B, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } = 12 Elements
+The TouchStone As { A, B, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } = 12 Elements
+
+The Dual Path Configuration:
+The Universal Language Is As The Law, While The MileStone Is As The User UnderStanding
+The Universal Language = The MileStone
+
+The Rules:
+Element : Your Definition / Identity
+A: The Book And Attributes
+B: The Language And Invention
+0: The Birth And Heritage
+1: The Faith And Physics
+2: The Love And Design
+3: The Family And Aspiration
+4: The Support And Determination
+5: The Existence And Personality
+6: The Good And Life
+7: The Rules And Justice
+8: The Decisions And Plan
+9: The Evil And Death
+
+The Conditions:
+Element : Your Definition / Identity
+A: The UnderStanding And Development
+B: The Idea And Program
+0: The Creation And Potential
+1: The Trust And Proofs
+2: The Kindness And FriendShip
+3: The Children And Care
+4: The Art And Business
+5: The Character And Prophecy
+6: The Behaviours And Improvements
+7: The Rights And Promises
+8: The Time And Progress
+9: The Resistance And DurAbility
+
+The Statements/The Commands:
+Element : Your Definition / Identity
+A: UnderStand Your Author
+B: Learn Your Language
+0: Accept Your Destiny
+1: Find Your Believes
+2: Find Your Love
+3: Make Your-Self Children
+4: Find Your Carrier
+5: Find Your-Self
+6: Follow Your Codex
+7: Listen Your Promises
+8: Follow Your Heart
+9: Fight Your Future
+
+____________________________________
+Element : Your Definition / Identity
+A:
+B:
+0:
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
