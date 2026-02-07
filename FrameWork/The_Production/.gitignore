@@ -1,0 +1,114 @@
+# THE BOOK OF YOUR DESTINY - Git Ignore File
+# Defines which files and directories should NOT be committed to version control
+
+# ========== Composer & Dependencies ==========
+/vendor/
+composer.lock
+composer.phar
+
+# ========== Environment & Configuration ==========
+.env
+.env.local
+.env.*.local
+.env.production
+.env.production.local
+
+# ========== Writable Directory (generated files) ==========
+/writable/
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+!writable/.gitkeep
+
+# ========== IDE & Editor Files ==========
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.project
+*.pydevproject
+*.settings
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.History
+.editorconfig
+
+# ========== Node.js (if using frontend build tools) ==========
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+.cache/
+
+# ========== Testing ==========
+/coverage/
+.phpunit.result.cache
+.php_cs.cache
+
+# ========== OS Files ==========
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# ========== Temporary Files ==========
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.tmp/
+
+# ========== Database Backups ==========
+*.sql
+*.sql.gz
+database.sql
+database.sql.gz
+
+# ========== Build Artifacts ==========
+/build/
+/dist/
+*.jar
+*.war
+*.ear
+
+# ========== SSH Keys & Certificates ==========
+*.pem
+*.pfx
+*.p12
+*.key
+*.crt
+*.cer
+id_rsa*
+id_dsa*
+
+# ========== Logs ==========
+*.log
+logs/
+debug.log
+
+# ========== Mail Test Files ==========
+/mailcatcher/
+*.eml
+
+# ========== Project Specific ==========
+# Remove these if you want them to be version controlled
+.DS_Store
+.env.*.php
+docker/postgres_data/
+
+# Keep but ignore changes
+*.local.json
+
+# ========== Keep these directories ==========
+!writable/.gitkeep
+!tests/.gitkeep
+!app/Database/Migrations/.gitkeep

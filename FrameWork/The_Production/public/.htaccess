@@ -1,0 +1,55 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Determine the RewriteBase automatically and save it in an environment variable.
+    # If you are using PHP as a CGI module, you may need to remove the "#" from:
+    #RewriteBase /
+
+    # Protect hidden files and directories
+    RewriteRule "^\." - [Forbidden]
+
+    # Allow some files to be accessed normally
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Rewrite rule to use our front controller
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+
+    <IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/plain
+        AddOutputFilterByType DEFLATE text/html
+        AddOutputFilterByType DEFLATE text/xml
+        AddOutputFilterByType DEFLATE text/css
+        AddOutputFilterByType DEFLATE text/javascript
+        AddOutputFilterByType DEFLATE application/xml
+        AddOutputFilterByType DEFLATE application/xhtml+xml
+        AddOutputFilterByType DEFLATE application/rss+xml
+        AddOutputFilterByType DEFLATE application/javascript
+        AddOutputFilterByType DEFLATE application/x-javascript
+        AddOutputFilterByType DEFLATE application/json
+    </IfModule>
+
+    <IfModule mod_headers.c>
+        Header set X-UA-Compatible "IE=Edge"
+        Header set X-Frame-Options "DENY"
+        Header set X-Content-Type-Options "nosniff"
+        Header set X-XSS-Protection "1; mode=block"
+        Header set Referrer-Policy "strict-origin-when-cross-origin"
+    </IfModule>
+</IfModule>
+
+# Disable directory listing
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# Disable access to sensitive files
+<FilesMatch "\.env|\.gitignore|\.gitattributes|composer\.json|composer\.lock|\.htaccess|\.htpasswd|\.user\.ini">
+    Deny from all
+</FilesMatch>
+
+# Set PHP version if available
+<IfModule mod_env.c>
+    SetEnv CI_ENVIRONMENT production
+</IfModule>
