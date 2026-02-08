@@ -3,5 +3,31 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"php.validate.executablePath": "C:\\Users\\ImPro\\AppDrive\\LocalHost\\Users\\Administrator\\Automation\\PortableApps\\XamppPortable\\App\\Xampp\\php\\php.exe",
+		"php.executablePath": "C:\\Users\\ImPro\\AppDrive\\LocalHost\\Users\\Administrator\\Automation\\PortableApps\\XamppPortable\\App\\Xampp\\php\\php.exe",
+		"terminal.integrated.cwd": "C:\\Users\\ImPro\\AppDrive\\LocalHost\\Users\\Administrator\\Automation\\PortableApps\\XamppPortable\\App\\Xampp",
+		"terminal.integrated.profiles.windows": {
+			"PowerShell (Windows)": {
+				"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+				"args": []
+			},
+			"PowerShell Core": {
+				"path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+				"args": []
+			},
+			"Command Prompt": {
+				"path": "C:\\Windows\\System32\\cmd.exe",
+				"args": []
+			}
+		},
+		"terminal.integrated.automationShell.windows": {
+			"PowerShell Core": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+			"PowerShell (Windows)": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+		},
+		"terminal.integrated.defaultProfile.windows": "PowerShell Core",
+		"php.validate.run": "onType",
+		"php.validate.enable": true
+	}
 }
