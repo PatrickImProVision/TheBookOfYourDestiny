@@ -1,0 +1,72 @@
+[Book FrameWork]::FundamentalParameters
+
+LanguageConfiguration:
+
+Map : Universal Language -> Rule -> Condition -> Statement / Command
+
+Map : MileStone -> FlagStone -> StepStone -> TouchStone
+
+BookConfiguration:
+
+Map : Book -> Index -> Collection -> Page
+
+PageConfiguration:
+
+Map : Page -> PreFace,FullStory,Knowledge,Bible Legend,LeaderShip
+
+ListConfiguration:
+
+Map : List -> ::Name,::Title,::Content,::Description
+
+
+Map : PreFace -> 
+
+Map : FullStory ->
+
+Map : Knowledge ->
+
+Map : Bible Legend ->
+
+Map : LeaderShip -> Condition -> Statement
+
+Map : Ideas -> UnderStandings -> Variable -> Expansion -> Assign -> Path -> Explanation
+
+[NoteRecord]::Ideas
+[Expansion]::UnderStandings
+[Variable]::Parameter
+[Parameter]::Expansion
+
+
+
+
+
+
+____________________________________
+Element : Your Definition / Identity
+A: The UnderStanding Attributes And Design From The Bible
+B: The UnderStanding Language And Program From The Bible
+0: The UnderStanding Attributes And Destiny Potentiality From DNA
+1: The UnderStanding Faith And Believes From Jesus Teaching
+2: The UnderStanding Love And Attraction From PartnerShip
+3: The UnderStanding Making Children And Security From Family
+4: The UnderStanding Learning And Achievement From Professionality
+5: The UnderStanding Your-Self And Personality From Prophecy
+6: The UnderStanding Stories And Examples From Sermon
+7: The UnderStanding Law And Order From Citizen Rights
+8: The UnderStanding Goals And Agreement From Destiny
+9: The UnderStanding Evil And Resistance From End
+
+____________________________________
+Element : Your Definition / Identity
+A: The Know Your Properties
+B: The Know Your Bible
+0: The Know Your Legacy
+1: The Know Your Environment
+2: The Know Your Friends
+3: The Know Your Family
+4: The Know Your Work
+5: The Know Your-Self
+6: The Know Your Codex
+7: The Know Your Duty
+8: The Know Your Way
+9: The Know Your End

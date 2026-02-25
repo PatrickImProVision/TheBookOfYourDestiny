@@ -87,3 +87,9 @@ Ultimately, **The Book Of Your Destiny** stands as a fundamental stone of life�
 _The Book Of Your Destiny_ is a metaphysical codex that explains how life unfolds from cosmic origins to personal purpose. It presents a universal cycle of existence, a twelve-stage model of destiny, and a divine language that underlies all creation. Through this structure, the book teaches that destiny is not imposed — it is built through will, action, inheritance, and legacy, all within the Creator’s ordered universe.
 
 ---
+
+## Framework App (CodeIgniter 4)
+
+Production app root: `FrameWork/The_Production/` (contains `app/`, `public/`, `writable/`).
+
+Development assets: `FrameWork/The_Development/` (includes the CodeIgniter v4 ZIP).

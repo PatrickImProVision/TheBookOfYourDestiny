@@ -26,4 +26,26 @@ class BaseController
     {
         // Preload any models, libraries, etc, here.
     }
+
+    /**
+     * Return a normalized view data payload for query parameters.
+     *
+     * @param array<string> $expectedKeys
+     * @return array<string, mixed>
+     */
+    protected function buildQueryViewData(array $expectedKeys = []): array
+    {
+        $params = $_GET ?? [];
+
+        $expectedIndex = array_flip($expectedKeys);
+        $matched = array_intersect_key($params, $expectedIndex);
+        $extra = array_diff_key($params, $expectedIndex);
+
+        return [
+            'params' => $params,
+            'matchedParams' => $matched,
+            'extraParams' => $extra,
+            'expectedParams' => $expectedKeys,
+        ];
+    }
 }

@@ -15,6 +15,25 @@
 $routes->get('/', 'Home::index', ['as' => 'home']);
 
 // ============================================================================
+// Factory Firmware v2 - .app Routes
+// ============================================================================
+
+// Root app endpoints
+$routes->get('Index.app', 'Index::index');
+$routes->get('New.app', 'NewApp::index');
+
+// User endpoints
+$routes->get('User/Register.app', 'User\\Register::index');
+$routes->get('User/Login.app', 'User\\Login::index');
+$routes->get('User/ProFile.app', 'User\\Profile::index');
+
+// Store endpoints
+$routes->get('Store/Index.app', 'Store\\Index::index');
+$routes->get('Store/New.app', 'Store\\NewApp::index');
+$routes->get('Store/Edit.app', 'Store\\Edit::index');
+$routes->get('Store/View.app', 'Store\\View::index');
+
+// ============================================================================
 // Example Routes (Remove these when you don't need them)
 // ============================================================================
 

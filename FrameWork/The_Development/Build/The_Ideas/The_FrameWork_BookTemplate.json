@@ -1,0 +1,73 @@
+{
+    "FrameWork": {
+        "Parameters": {
+            "ParameterName": "Template"
+        },
+        "Attributes": {
+            
+        },
+        "BookTemplate": {
+            "Pages": {
+                "Files": [":InsertFile:"]
+            }
+        },
+        "PagesTemplate": {},
+        "MileStoneTemplate": {},
+        "FlagStoneTemplate": {
+            "PreFace": {
+                "BookName": "Destiny",
+                "PageTitle": "The Universal Language",
+                "Content": "The Fundamental Knowledge",
+                "Description": "The PreFace",
+                "Pages": {
+                    "Files": [":InsertFile:"]
+                }
+            },
+            "FlagStone": {
+                "BookName": "Destiny",
+                "PageTitle":"The Universal Language",
+                "Content":"The Fundamental Knowledge",
+                "Description": "The FlagStone",
+                "Pages": {
+                    "Files": [":InsertFile:"]
+                }
+            },
+            "FullStory": {
+                "BookName": "Destiny",
+                "PageTitle":"The Universal Language",
+                "Content":"The Fundamental Knowledge",
+                "Description": "The FullStory",
+                "Pages": {
+                    "Files": [":InsertFile:"]
+                }
+            },
+            "Knowledge": {
+                "BookName": "Destiny",
+                "PageTitle":"The Universal Language",
+                "Content":"The Fundamental Knowledge",
+                "Description": "The Knowledge",
+                "Pages": {
+                    "Files": [":InsertFile:"]
+                }
+            },
+            "BibleLegend": {
+                "BookName": "Destiny",
+                "PageTitle":"The Universal Language",
+                "Content":"The Fundamental Knowledge",
+                "Description": "The Bible Legend",
+                "Pages": {
+                    "Files": [":InsertFile:"]
+                }
+            },
+            "LeaderShip": {
+                "BookName": "Destiny",
+                "PageTitle":"The Universal Language",
+                "Content":"The Fundamental Knowledge",
+                "Description": "The LeaderShip",
+                "Pages": {
+                    "Files": [":InsertFile:"]
+                }
+            }
+        }
+    }
+}

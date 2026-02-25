@@ -1,0 +1,40 @@
+{
+    "Media": {
+        "Book": {
+            "Cover": {
+                "Logo": "The_Image/The_Logo.png",
+                "LogoStyle": "Top,Center",
+                "Title": "The Book Of Your Destiny",
+                "SubTitle": "The Fundamental Stone Of Life",
+                "Description": "The Destiny Given By The Will Of God.",
+                "AuthorName": "Patrick ImProVision",
+                "AuthorArtName": "ImProVision Man",
+                "PurPose": "The Bible Of Life"
+            },
+            "A": {
+            },
+            "B": {
+            },
+            "0": {
+            },
+            "1": {
+            },
+            "2": {
+            },
+            "3": {
+            },
+            "4": {
+            },
+            "5": {
+            },
+            "6": {
+            },
+            "7": {
+            },
+            "8": {
+            },
+            "9": {
+            }
+        }
+    }
+}

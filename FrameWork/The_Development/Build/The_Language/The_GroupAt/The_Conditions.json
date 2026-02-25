@@ -1,0 +1,54 @@
+{
+    "FrameWork": {
+        "Condition": {
+            "A": {
+                "Title": "The UnderStanding And Attributes",
+                "KeyWords": ["UnderStanding","Attributes"]
+            },
+            "B": {
+                "Title": "The Idea And Program",
+                "KeyWords": ["Idea","Program"]
+            },
+            "0": {
+                "Title": "The Creation And Potential",
+                "KeyWords": ["Creation","Potential"]
+            },
+            "1": {
+                "Title": "The Beliefs And Trust",
+                "KeyWords": ["Beliefs","Trust"]
+            },
+            "2": {
+                "Title": "The Kindness And FriendShip",
+                "KeyWords": ["Kindness","FriendShip"]
+            },
+            "3": {
+                "Title": "The Children And Care",
+                "KeyWords": ["Children","Care"]
+            },
+            "4": {
+                "Title": "The Art And Business",
+                "KeyWords": ["Art","Business"]
+            },
+            "5": {
+                "Title": "The Character And Prophecy",
+                "KeyWords": ["Character","Prophecy"]
+            },
+            "6": {
+                "Title": "The Behaviours And Improvements",
+                "KeyWords": ["Behaviours","Improvements"]
+            },
+            "7": {
+                "Title": "The Rights And Promises",
+                "KeyWords": ["Rights","Promises"]
+            },
+            "8": {
+                "Title": "The Time And Progress",
+                "KeyWords": ["Time","Progress"]
+            },
+            "9": {
+                "Title": "The Resistance And DurAbility",
+                "KeyWords": ["Resistance","DurAbility"]
+            }
+        }
+    }
+}

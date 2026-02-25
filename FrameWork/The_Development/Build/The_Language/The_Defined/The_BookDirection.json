@@ -1,0 +1,32 @@
+{
+    "FrameWork": {
+        "Parameters": {
+            "ParameterName": "Language",
+            "ParameterValue": "Direction"
+        },
+        "Attributes": {
+            "LanguageType": "Defined",
+            "LanguageCodeName": ["Direction"]
+        },
+        "Language": {
+            "Direction": {
+                "UniversalLanguage": {
+                    "Name": "SystemDirection",
+                    "Description": "The Universal Language Indexing.",
+                    "Index": ["Language", "Rule", "Condition", "Statement"],
+                    "Rule": ["A", "B", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                    "Condition": ["A", "B", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                    "Statement": ["A", "B", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+                },
+                "MileStone": {
+                    "Name": "UserDirection",
+                    "Description": "The MileStone System Indexing.",
+                    "Index": ["MileStone", "FlagStone", "HillStone", "StepStone"],
+                    "FlagStone": ["A", "B", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                    "HillStone": ["A", "B", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                    "StepStone": ["A", "B", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+                }
+            }
+        }
+    }
+}

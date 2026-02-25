@@ -1,0 +1,109 @@
+{
+  "VariableType": {
+    "Array": {
+      "Id": 1,
+      "Name": "Array",
+      "Description": "A collection of ordered values",
+      "Type": "Type",
+      "Value": []
+    },
+    "Boolean": {
+      "Id": 2,
+      "Name": "Boolean",
+      "Description": "True or False logical value",
+      "Type": "Type",
+      "Value": false
+    },
+    "Byte": {
+      "Id": 3,
+      "Name": "Byte",
+      "Description": "8-bit unsigned integer (0–255)",
+      "Type": "Type",
+      "Value": 0
+    },
+    "Char": {
+      "Id": 4,
+      "Name": "Char",
+      "Description": "Single character value",
+      "Type": "Type",
+      "Value": "A"
+    },
+    "Decimal": {
+      "Id": 5,
+      "Name": "Decimal",
+      "Description": "High precision decimal number",
+      "Type": "Type",
+      "Value": 0.0
+    },
+    "Enum": {
+      "Id": 6,
+      "Name": "Enum",
+      "Description": "A predefined set of allowed values",
+      "Type": "Type",
+      "Value": []
+    },
+    "Float": {
+      "Id": 7,
+      "Name": "Float",
+      "Description": "Floating point number",
+      "Type": "Type",
+      "Value": 0.0
+    },
+    "Int": {
+      "Id": 8,
+      "Name": "Int",
+      "Description": "Integer number",
+      "Type": "Type",
+      "Value": 0
+    },
+    "Name": {
+      "Id": 9,
+      "Name": "Name",
+      "Description": "Human-readable identifier",
+      "Type": "Type",
+      "Value": "ExampleName"
+    },
+    "Null": {
+      "Id": 10,
+      "Name": "Null",
+      "Description": "Represents no value",
+      "Type": "Type",
+      "Value": null
+    },
+    "Numeric": {
+      "Id": 11,
+      "Name": "Numeric",
+      "Description": "Any numeric value (int or float)",
+      "Type": "Type",
+      "Value": 0
+    },
+    "Object": {
+      "Id": 12,
+      "Name": "Object",
+      "Description": "Key-value structured data",
+      "Type": "Type",
+      "Value": {}
+    },
+    "String": {
+      "Id": 13,
+      "Name": "String",
+      "Description": "Text value",
+      "Type": "Type",
+      "Value": ""
+    },
+    "Type": {
+      "Id": 14,
+      "Name": "Type",
+      "Description": "Defines the data type of a variable",
+      "Type": "Type",
+      "Value": "String"
+    },
+    "Value": {
+      "Id": 15,
+      "Name": "Value",
+      "Description": "Holds the actual data for a variable",
+      "Type": "Type",
+      "Value": null
+    }
+  }
+}

@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /CodeIgniter/
+    RewriteBase /TheBookOfYourDestiny/FrameWork/The_Production/public/
 
     # Redirect Trailing Slashes...
     RewriteCond %{REQUEST_FILENAME} !-d

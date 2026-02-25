@@ -1,0 +1,79 @@
+{
+  "FrameWork": {
+    "Id": 1,
+    "Name": "StoreFrameWork",
+    "Description": "Store FrameWork Environment Definition",
+    "Type": "Object",
+
+    "Version": {
+      "Number": "1.0.0",
+      "Date": "2026-02-13"
+    },
+
+    "Locale": [
+      "en-US",
+      "en-UK",
+      "cs-CZ"
+    ],
+
+    "Environment": {
+      "Variable": [
+			{ "Name": "APP_ENV", "Value": "development", "Type": "String" }
+	  ],
+      "Path": [
+			{ "Name": "BasePath", "Value": "Change/var/www/app" }
+	  ],
+      "Executable": [
+			{ "Name": "PHP", "Value": "Change/usr/bin/php" }
+	  ],
+      "Allowed_Function": [
+			"json_encode",
+			"json_decode"
+	  ],
+      "Command": [
+			"php index.php"
+	  ]
+    },
+
+    "Module": [
+      {
+        "Id": 1,
+        "Name": "StoreModule",
+        "Description": "Module description",
+        "Type": "Object",
+
+        "Version": {
+          "Number": "1.0.0",
+          "Date": "2026-02-13"
+        },
+
+        "Locale": ["en-US"],
+
+        "File": [
+			{ "Name": "Controller", "Path": "app/Controllers/Store.php" },
+			{ "Name": "Model", "Path": "app/Models/StoreModel.php" }
+		],
+        "Security": {
+          "Name": "StoreSecurity",
+          "Description": "Security rules for this module",
+          "Type": "Object",
+          "Permission": [
+				{ "Name": "Read", "Value": true },
+				{ "Name": "Write", "Value": false }
+		  ]
+        },
+
+        "Data": {
+			"StoreCount": { "Type": "Int", "Value": 0 }
+		},
+        "Function": [
+			{ "Name": "ViewStore", "Type": "Function" },
+			{ "Name": "LoginStore", "Type": "Function" }
+		],
+        "Log": [
+			{ "Name": "StoreLog", "Path": "logs/Store.log" }
+		]
+      }
+    ]
+  }
+}

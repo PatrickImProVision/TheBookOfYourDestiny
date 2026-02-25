@@ -1,0 +1,59 @@
+{
+  "FrameWork": {
+    "Id": 1,
+    "Name": "DefaultFrameWork",
+    "Description": "Default FrameWork Environment Definition",
+    "Type": "Object",
+
+    "Version": {
+      "Number": "1.0.0",
+      "Date": "2026-02-13"
+    },
+
+    "Locale": [
+      "en-US",
+      "en-UK",
+      "cs-CZ"
+    ],
+
+    "Environment": {
+      "Variable": [],
+      "Path": [],
+      "Executable": [],
+      "Allowed_Function": [],
+      "Command": []
+    },
+
+    "Module": [
+      {
+        "Id": 1,
+        "Name": "DefaultModule",
+        "Description": "Module description",
+        "Type": "Object",
+
+        "Version": {
+          "Number": "1.0.0",
+          "Date": "2026-02-13"
+        },
+
+        "Locale": [
+          "en-US",
+          "en-UK",
+          "cs-CZ"
+        ],
+
+        "File": [],
+        "Security": {
+          "Name": "DefaultSecurity",
+          "Description": "Security rules for this module",
+          "Type": "Object",
+          "Permission": []
+        },
+
+        "Data": {},
+        "Function": [],
+        "Log": []
+      }
+    ]
+  }
+}

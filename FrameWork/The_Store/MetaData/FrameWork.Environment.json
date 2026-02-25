@@ -1,0 +1,203 @@
+{
+    "Environment": {
+        "Variable": "MetaData/FrameWork.Variable.json",
+        "Parameter": {
+        },
+        "Attribute": {
+        },
+        "Config": {
+            "Node_Env": "Development",
+            "Log_Level": "Debug"
+        },
+        "ProFiles": {
+            "Type": [
+                "Development",
+                "Test",
+                "Production",
+                "Store"
+            ],
+            "Development": {
+                "Executable": {
+                    "PowerShell": {
+                        "Exe": "C:/Windows/System32/WindowsPowerShell/v1.0/PowerShell.exe",
+                        "Scripts": "${POWERSHELL_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Cmd": {
+                        "Exe": "C:/Windows/System32/Cmd.exe",
+                        "Scripts": "${CMD_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "PHP": {
+                        "Exe": "C:/Xampp/php/php.exe",
+                        "Scripts": "${PHP_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Node": {
+                        "Exe": "C:/Program Files/NodeJs/Node.exe",
+                        "Scripts": "${NODE_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Python": {
+                        "Exe": "C:/Program Files/Python/Python.exe",
+                        "Scripts": "${PYTHON_SCRIPT}",
+                        "Commands": {
+                        }
+                    }
+                },
+                "DB": {
+                    "Host": "localhost",
+                    "Port": "3306",
+                    "Name": "App_Development"
+                },
+                "Logging": {
+                    "Debug": true,
+                    "Level": [
+                        "Verbose"
+                    ]
+                }
+            },
+            "Test": {
+                "Executable": {
+                    "PowerShell": {
+                        "Exe": "C:/Windows/System32/WindowsPowerShell/v1.0/PowerShell.exe",
+                        "Scripts": "${POWERSHELL_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Cmd": {
+                        "Exe": "C:/Windows/System32/Cmd.exe",
+                        "Scripts": "${CMD_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "PHP": {
+                        "Exe": "C:/Xampp/php/php.exe",
+                        "Scripts": "${PHP_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Node": {
+                        "Exe": "C:/Program Files/NodeJs/Node.exe",
+                        "Scripts": "${NODE_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Python": {
+                        "Exe": "C:/Program Files/Python/Python.exe",
+                        "Scripts": "${PYTHON_SCRIPT}",
+                        "Commands": {
+                        }
+                    }
+                },
+                "DB": {
+                    "Host": "localhost",
+                    "Port": "3306",
+                    "Name": "App_Test"
+                },
+                "Logging": {
+                    "Debug": true,
+                    "Level": [
+                        "Verbose"
+                    ]
+                }
+            },
+            "Production": {
+                "Executable": {
+                    "PowerShell": {
+                        "Exe": "C:/Windows/System32/WindowsPowerShell/v1.0/PowerShell.exe",
+                        "Scripts": "${POWERSHELL_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Cmd": {
+                        "Exe": "C:/Windows/System32/Cmd.exe",
+                        "Scripts": "${CMD_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "PHP": {
+                        "Exe": "C:/Xampp/php/php.exe",
+                        "Scripts": "${PHP_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Node": {
+                        "Exe": "C:/Program Files/NodeJs/Node.exe",
+                        "Scripts": "${NODE_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Python": {
+                        "Exe": "C:/Program Files/Python/Python.exe",
+                        "Scripts": "${PYTHON_SCRIPT}",
+                        "Commands": {
+                        }
+                    }
+                },
+                "DB": {
+                    "Host": "destiny-books.rf.gd",
+                    "Port": "3306",
+                    "Name": "App_Production"
+                },
+                "Logging": {
+                    "Debug": true,
+                    "Level": [
+                        "Verbose",
+                        "Error"
+                    ]
+                }
+            },
+            "Store": {
+                "Executable": {
+                    "PowerShell": {
+                        "Exe": "C:/Windows/System32/WindowsPowerShell/v1.0/PowerShell.exe",
+                        "Scripts": "${POWERSHELL_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Cmd": {
+                        "Exe": "C:/Windows/System32/Cmd.exe",
+                        "Scripts": "${CMD_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "PHP": {
+                        "Exe": "C:/Xampp/php/php.exe",
+                        "Scripts": "${PHP_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Node": {
+                        "Exe": "C:/Program Files/NodeJs/Node.exe",
+                        "Scripts": "${NODE_SCRIPT}",
+                        "Commands": {
+                        }
+                    },
+                    "Python": {
+                        "Exe": "C:/Program Files/Python/Python.exe",
+                        "Scripts": "${PYTHON_SCRIPT}",
+                        "Commands": {
+                        }
+                    }
+                },
+                "DB": {
+                    "Host": "localhost",
+                    "Port": "3306",
+                    "Name": "App_Store"
+                },
+                "Logging": {
+                    "Debug": true,
+                    "Level": [
+                        "Verbose",
+                        "Error"
+                    ]
+                }
+            }
+        }
+    }
+}

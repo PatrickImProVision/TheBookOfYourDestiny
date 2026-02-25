@@ -16,7 +16,26 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://localhost/CodeIgniter/';
+    public string $baseURL = '';
+
+    public function __construct()
+    {
+        $envBaseUrl = getenv('APP_BASEURL');
+        if ($envBaseUrl === false || $envBaseUrl === '') {
+            $envBaseUrl = getenv('app.baseURL');
+        }
+
+        if ($envBaseUrl !== false && $envBaseUrl !== '') {
+            $this->baseURL = rtrim($envBaseUrl, '/') . '/';
+            return;
+        }
+
+        $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+        $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+        $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+        $path = rtrim(str_replace(basename($scriptName), '', $scriptName), '/');
+        $this->baseURL = $scheme . '://' . $host . $path . '/';
+    }
 
     /**
      * --------------------------------------------------------------------------

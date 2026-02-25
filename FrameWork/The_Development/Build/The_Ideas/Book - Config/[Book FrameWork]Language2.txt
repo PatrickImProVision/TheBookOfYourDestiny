@@ -1,0 +1,12 @@
+[Book FrameWork]::Language
+Language A: The Language Development
+Language B: The Language 
+Language 0: The Language Attributes
+Language 1: The Language Faith
+Language 2: The Language Love
+Language 3: The Language Family
+Language 4: The Language Support
+Language 5: The Language Personality
+Language 7: The Language Rules
+Language 8: The Language Destiny Plan
+Language 9: The Language Resistance

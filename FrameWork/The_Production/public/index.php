@@ -106,8 +106,8 @@ class SimpleRouter
 
     private function parseUri()
     {
-        $baseUrl = $_ENV['APP_BASEURL'] ?? 'http://localhost/';
-        $basePath = parse_url($baseUrl, PHP_URL_PATH);
+        $baseUrl = $_ENV['APP_BASEURL'] ?? '';
+        $basePath = parse_url($baseUrl, PHP_URL_PATH) ?: '';
         $basePath = rtrim($basePath, '/');
 
         $requestUri = $_SERVER['REQUEST_URI'];
@@ -115,6 +115,12 @@ class SimpleRouter
 
         if (!empty($basePath) && strpos($requestUri, $basePath) === 0) {
             $this->uri = substr($requestUri, strlen($basePath));
+        } else {
+            $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+            $scriptDir = rtrim(str_replace('\\', '/', dirname($scriptName)), '/');
+            if ($scriptDir !== '' && strpos($requestUri, $scriptDir) === 0) {
+                $this->uri = substr($requestUri, strlen($scriptDir));
+            }
         }
 
         $this->uri = '/' . ltrim(parse_url($this->uri, PHP_URL_PATH), '/');
@@ -143,6 +149,12 @@ class SimpleRouter
 
     private function addRoute($method, $path, $handler)
     {
+        if ($path === '') {
+            $path = '/';
+        }
+        if ($path[0] !== '/') {
+            $path = '/' . $path;
+        }
         $this->routes[] = [
             'method' => $method,
             'path' => $path,
@@ -222,6 +234,17 @@ if (!function_exists('view')) {
         ob_start();
         include VIEWPATH . str_replace('.', DIRECTORY_SEPARATOR, $viewName) . '.php';
         return ob_get_clean();
+    }
+}
+
+if (!function_exists('base_url')) {
+    function base_url(): string
+    {
+        $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+        $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+        $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+        $path = rtrim(str_replace(basename($scriptName), '', $scriptName), '/');
+        return $scheme . '://' . $host . $path . '/';
     }
 }
 

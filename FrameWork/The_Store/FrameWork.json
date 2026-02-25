@@ -1,0 +1,64 @@
+{
+	"FrameWork": {
+		"Name": "SemanticOS",
+		"Description": "Micro-Bible MVC FrameWork For CodeIgniter v4.",
+		
+		"Version": {
+			"Number": "1.0.0",
+			"Type": "Master",
+			"Created": "14-01-2026",
+			"Notes": "Initial Schema Definition"
+		},
+		
+		"MetaData": {
+			"Author": "Patrick ImProVison",
+			"Company": "SilverSoft",
+			"Licence": "MIT"
+		},
+		
+		"Paths": {
+			"Development": "FrameWork/The_Development",
+			"Test": "FrameWork/The_Test",
+			"Production": "FrameWork/The_Production",
+			"Store": "FrameWork/The_Store"
+		},
+		
+		"Files": {
+			"Development": {
+				"Environment": "MetaData/FrameWork.Environment.json",
+				"Language": "MetaData/FrameWork.Language.json",
+				"Template": "MetaData/FrameWork.Template.json",
+				"Media": "MetaData/FrameWork.Media.json",
+				"Store": "MetaData/FrameWork.Store.json",
+				"Store.Module": "MetaData/FrameWork.Store.Module.json"
+			},
+			
+			"Test": {
+				"Environment": "MetaData/FrameWork.Environment.json",
+				"Language": "MetaData/FrameWork.Language.json",
+				"Template": "MetaData/FrameWork.Template.json",
+				"Media": "MetaData/FrameWork.Media.json",
+				"Store": "MetaData/FrameWork.Store.json",
+				"Store.Module": "MetaData/FrameWork.Store.Module.json"
+			},
+			
+			"Production": {
+				"Environment": "MetaData/FrameWork.Environment.json",
+				"Language": "MetaData/FrameWork.Language.json",
+				"Template": "MetaData/FrameWork.Template.json",
+				"Media": "MetaData/FrameWork.Media.json",
+				"Store": "MetaData/FrameWork.Store.json",
+				"Store.Module": "MetaData/FrameWork.Store.Module.json"
+			},
+			
+			"Store": {
+				"Environment": "MetaData/FrameWork.Environment.json",
+				"Language": "MetaData/FrameWork.Language.json",
+				"Template": "MetaData/FrameWork.Template.json",
+				"Media": "MetaData/FrameWork.Media.json",
+				"Store": "MetaData/FrameWork.Store.json",
+				"Store.Module": "MetaData/FrameWork.Store.Module.json"
+			}
+		}
+	}
+}

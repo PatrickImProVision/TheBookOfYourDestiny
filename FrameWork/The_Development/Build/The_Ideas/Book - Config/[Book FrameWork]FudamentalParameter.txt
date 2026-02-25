@@ -1,0 +1,123 @@
+[Book FrameWork]::FudamentalParameter
+
+Book:Understanding
+[Book FrameWork]::
+Element : Your Definition / Identity
+A: The Book Attributes
+B: The Book Language
+0: The Book Birth
+1: The Book Faith
+2: The Book Love
+3: The Book Family
+4: The Book Support
+5: The Book Personality
+6: The Book Codex
+7: The Book Promise
+8: The Book Destiny Plan
+9: The Book Resistance
+
+Language:Idea
+[Book FrameWork]::Idea
+Element : Your Definition / Identity
+A : A means Book
+B : B means Language
+0 : Zero means God
+1 : One means Individuality
+2 : Two means Love
+3 : Three means Family
+4 : Four means Support
+5 : Five means Existence
+6 : Six means Angel
+7 : Seven means Heaven
+8 : Eight means Infinity
+9 : Nine means Devil
+
+[Book FrameWork]::
+Element : Your Definition / Identity
+A: The Book Development
+B: The Language Invention
+0: The Idea 
+1: The Faith
+2: The Love
+3: The Family
+4: The Support
+5: The Attributes
+6: The Prime Directives
+7: The Law
+8: The Destiny Plan
+9: The Resistance
+
+[Book FrameWork]::
+Element : Your Definition / Identity
+A: The Book Development
+B: The Language Invention
+0: The Idea 
+1: The Faith
+2: The Love
+3: The Family
+4: The Support
+5: The Attributes
+6: The Prime Directives
+7: The Law
+8: The Destiny Plan
+9: The Resistance
+
+[Book FrameWork]::Achievement
+Element : Your Definition / Identity
+A: The UnderStanding And Development
+B: The Life And Program
+0: The Creation And Birth
+1: The Trust And Proofs
+2: The Love And FriendShip
+3: The Children And Care
+4: The Art And Business
+5: The Attributes And Prophecy
+6: The Behaviours And Improvements
+7: The Rights And Promises
+8: The Time And Progress
+9: The Resistance And Durability
+
+[Book FrameWork]::FundamentalDescription
+Element : Your Definition / Identity
+A: The UnderStanding And Development
+B: The Language And Invention
+0: The Creation And Birth
+1: The Faith And Trust
+2: The Love And Design
+3: The Family And Aspiration
+4: The Support And Determination
+5: The Existence And Personality
+6: The Good And Life
+7: The Rules And Justice
+8: The Decisions And Plan
+9: The Evil And Death
+
+[Book FrameWork]::FundamentalDefinition
+Element : Your Definition / Identity
+A: The Bible Attributes
+B: The Bible Language
+0: The God Story
+1: The Jesus Teaching
+2: The Lover FriendShip
+3: The Leader Guide
+4: The Master Creation
+5: The Man Prophecy
+6: The Bishop Sermon
+7: The Knight Protection
+8: The Lord ReDetermination
+9: The King Governance
+
+[Book FrameWork]::
+Element : Your Definition / Identity
+A:
+B:
+0:
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:

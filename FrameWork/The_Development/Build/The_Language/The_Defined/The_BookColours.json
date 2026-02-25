@@ -1,0 +1,46 @@
+{
+    "FrameWork": {
+        "Parameters": {
+            "ParameterName": "Language",
+            "ParameterValue": "Colour"
+        },
+        "Attributes": {
+            "LanguageType": "Defined",
+            "LanguageCodeName": ["Colour"]
+        },
+        "Language": {
+            "Colour": {
+                "0": {
+                    "Name": "White",
+                    "Meaning": ["Good", "Life", "Innocence"],
+                    "Expression": "The Good Deeds, Innocence And Justice Of Person Who Lives A Virgin Life",
+                    "Description": "Everything Starts With Innocence And Purity, As It Is The Foundation Of All Creation And Potential."
+                },
+                "1": {
+                    "Name": "Blue",
+                    "Meaning": ["Ideas", "Knowledge", "Wisdom"],
+                    "Expression": "The Ideas And Knowledge Of A Person Who Lives A Life Leaded By Understanding To Make Him-Self WisDom Life.",
+                    "Description": "The Thoughts And Ideas Form The Basis Of Knowledge, Enabling Us To Create New Concepts And Understand The World Around Us."
+                },
+                "2": {
+                    "Name": "Red",
+                    "Meaning": ["Love", "Kindness", "Compassion"],
+                    "Expression": "The Love And Humanity Of A Person Who Lives A Love Life.",
+                    "Description": "The Love And Kindness Are Essential Emotions That Connect Us To Other People And Everything Else In Life."
+                },
+                "3": {
+                    "Name": "Green",
+                    "Meaning": ["Law", "Rights", "Justice"],
+                    "Expression": "The Rights And Orders Of A Person Who Listens To The Law To Get His Green Flag And Living Good Life.",
+                    "Description": "The Achievement Of Justice And Fairness Is Vital For Maintaining Order And Ensuring That Everyone's Rights Are Respected."
+                },
+                "4": {
+                    "Name": "Black",
+                    "Meaning": ["Evil", "Death", "Guilt"],
+                    "Expression": "The Evil Deeds, Temptation And Hate Of A Person Who Lives A Evil Life.",
+                    "Description": "The Evil Actions Could Leads To Death And As A Human Race, We Must Learn To Recognise Such Behaviours To Avoid Them."
+                }
+            }
+        }
+    }
+}

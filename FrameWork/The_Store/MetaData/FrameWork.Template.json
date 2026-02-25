@@ -1,0 +1,48 @@
+{
+		"Template": {
+			"Structure": {
+				"Type": {
+					"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+					"Label": ["AAA", "BBB", "000", "111", "222", "333", "444", "555", "666", "777", "888", "999"],
+					"Category": ["Idea", "Expression", "Origin", "Conviction", "Devotion", "Legacy", "Foundation", "Being", "Virtue", "Covenant", "Authority", "Dominion"],
+					"": ["Case", "Book", "Topic", "Chapter", "Page"],
+					"Value": ["", "", "", "", "", "", "", "", "", "", "", ""]
+				}
+			},
+			"Rendering": {
+				"Case": {
+					"Type": "Book",
+					"Description": "The PreFormated Book Case",
+					"Size": "A5",
+					"Image": "The_Image/The_Logo.png",
+					"Formation": ["::BookLogo", "::BookName","::BookTitle","::AuthorName"],
+					"Style": ["Top-Center","Left","Left","Left"]
+				},
+				"Book": {
+					"Type": "Page",
+					"Description": "The PreFormated Page",
+					"Size": "A5",
+					"Formation": ["::BookName","::PageTitle","::PageContent","::PageDescription"],
+					"Style": ["Left","Center","Left","Left"]
+				},
+				"Page": {
+					"Type": "Page",
+					"Description": "The PreFormated Page",
+					"Size": "A5",
+					"Formation": ["::BookName","::PageTitle","::PageContent","::PageDescription"],
+					"Style": ["Left","Center","Left","Left"]
+				}
+			},
+			"Book": {
+				"Id": "Type",
+				"Topic": {
+					"Type": ["Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip"],
+					"Name": ["The Book", "The Language", "The Index", "The PreFace", "The FlagStone", "The FullStory", "The Knowledge", "The Gift", "The Bible Legend", "The LeaderShip"],
+					"Description": ["Book Description", "Language Description", "Index Description", "PreFace Description", "FlagStone Description", "FullStory Description", "Knowledge Description", "Gift Description", "BibleLegend Description", "LeaderShip Description"],
+					"Topic": ["Book Topic", "Language Topic", "Index Topic", "PreFace Topic", "FlagStone Topic", "FullStory Topic", "Knowledge Topic", "Gift Topic", "BibleLegend Topic", "LeaderShip Topic"],
+					"Chapter": ["Book Chapter", "Language Chapter", "Index Chapter", "PreFace Chapter", "FlagStone Chapter", "FullStory Chapter", "Knowledge Chapter", "Gift Chapter", "BibleLegend Chapter", "LeaderShip Chapter"],
+					"Page": ["Book Page", "Language Page", "Index Page", "PreFace Page", "FlagStone Page", "FullStory Page", "Knowledge Page", "Gift Page", "BibleLegend Page", "LeaderShip Page"]
+				}
+			}
+		}
+}

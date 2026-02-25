@@ -1,0 +1,20 @@
+{
+    "FrameWork": {
+        "Parameters": {},
+        "Attributes": {},
+        "Language": {
+            "Fundamental": {
+                "Files": ["The_Fundamental/The_FundamentalSymbols.json"]
+            },
+            "Defined": {
+                "Files": ["The_Defined/The_BookColours.json","The_Defined/The_BookDirection.json","The_Defined/The_BookConversion.json","The_Defined/The_FrameWorkConversion.json"]
+            },
+            "GroupAt": {
+                "Files": ["The_GroupAt/The_Rules.json","The_GroupAt/The_Condition.json","The_GroupAt/The_Statement.json"]
+            },
+            "Fonts": {
+                "Files": ["The_Fonts/The_Font.json"]
+            }
+        }
+    }
+}

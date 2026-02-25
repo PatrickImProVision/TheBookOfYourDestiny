@@ -1,0 +1,13 @@
+[Book FrameWork]::Family
+Family A: BeLong To Family TriAngle Of Enlighted People
+Family B: BeLong To Family TriAngle Of Linguists
+Family 0: BeLong To Family TriAngle Of Holy God
+Family 1: BeLong To Family TriAngle Of FaithFull People
+Family 2: BeLong To Family TriAngle Of Lovers
+Family 3: BeLong To Family TriAngle Of Families
+Family 4: BeLong To Family TriAngle Of Workers
+Family 5: BeLong To Family TriAngle Of Society
+Family 6: BeLong To Family TriAngle Of Pure Pople
+Family 7: BeLong To Family TriAngle Of Holy People
+Family 8: BeLong To Family TriAngle Of Destined People
+Family 9: BeLong To Family TriAngle Of Strong People
