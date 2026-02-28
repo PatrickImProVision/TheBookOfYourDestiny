@@ -1,0 +1,13 @@
+[Book FrameWork]::Support
+Support A: Study The Book Life And Work Towards The Destiny Plan
+Support B: Study The Language Life And Work Towards The Destiny Plan
+Support 0: Study The God Life And Work Towards The Destiny Plan
+Support 1: Study The FaithFull Life And Work Towards The Destiny Plan
+Support 2: Study The Love Life And Work Towards The Destiny Plan
+Support 3: Study The Family Life And Work Towards The Destiny Plan
+Support 4: Study The Support Life And Work Towards The Destiny Plan
+Support 5: Study The Gifted Life And Work Towards The Destiny Plan
+Support 6: Study The Pure Life And Work Towards The Destiny Plan
+Support 7: Study The Holy Life And Work Towards The Destiny Plan
+Support 8: Study The Destined Life And Work Towards The Destiny Plan
+Support 9: Study The Strong Life And Work Towards The Destiny Plan

@@ -1,0 +1,13 @@
+[Book FrameWork]::Faith
+Faith A: Have Faith In The Book
+Faith B: Have Faith In The Language
+Faith 0: Have Faith In The God Existence
+Faith 1: Have Faith In The God Love Life
+Faith 2: Have Faith In The Partner Love Life
+Faith 3: Have Faith In The Family Love Life
+Faith 4: Have Faith In The Support Life
+Faith 5: Have Faith In The Gift Life
+Faith 6: Have Faith In The Pure Life
+Faith 7: Have Faith In The Holy Life
+Faith 8: Have Faith In The Destined Life
+Faith 9: Have Faith In The After Life

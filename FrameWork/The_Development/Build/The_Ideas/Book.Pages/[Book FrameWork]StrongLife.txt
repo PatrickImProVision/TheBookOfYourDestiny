@@ -1,0 +1,13 @@
+[Book FrameWork]::StrongLife
+StrongLife A: Resist The Evil Enemy Of The Book Life
+StrongLife B: Resist The Evil Enemy Of The Language Life
+StrongLife 0: Resist The Evil Enemy Of The God Life
+StrongLife 1: Resist The Evil Enemy Of The FaithFull Life
+StrongLife 2: Resist The Evil Enemy Of The Love Life
+StrongLife 3: Resist The Evil Enemy Of The Family Life
+StrongLife 4: Resist The Evil Enemy Of The Support Life
+StrongLife 5: Resist The Evil Enemy Of The Man's Life
+StrongLife 6: Resist The Evil Enemy Of The Pure Life
+StrongLife 7: Resist The Evil Enemy Of The Holy Life
+StrongLife 8: Resist The Evil Enemy Of The Destined Life
+StrongLife 9: Resist The Evil Enemy Of The Strong Life

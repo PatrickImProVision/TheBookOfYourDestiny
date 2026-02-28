@@ -1,0 +1,13 @@
+[Book FrameWork]::HolyLife
+HolyLife A: Listen To The Law Of Book Codex
+HolyLife B: Listen To The Law Of Universal Language
+HolyLife 0: Listen To The Law Of Government
+HolyLife 1: Listen To The Law Of Individuals
+HolyLife 2: Listen To The Law Of Couples
+HolyLife 3: Listen To The Law Of Families And Children
+HolyLife 4: Listen To The Law Of Support
+HolyLife 5: Listen To The Law Of Society
+HolyLife 6: Listen To The Law Of Alive Poeple
+HolyLife 7: Listen To The Law Of Lucky People
+HolyLife 8: Listen To The Law Of Chosen People
+HolyLife 9: Listen To The Law Of Death People

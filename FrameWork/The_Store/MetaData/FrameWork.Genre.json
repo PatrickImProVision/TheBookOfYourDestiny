@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Adventure",
+    "Description": "Stories Centered On Exciting Journeys, Exploration, And High‑Stakes Challenges."
+  },
+  {
+    "Name": "Adult",
+    "Description": "Books Written For Mature Readers, Often Exploring Complex Emotional Or Social Themes."
+  },
+  {
+    "Name": "Biography",
+    "Description": "A Factual Account Of A Real Person's Life, Written By SomeOne Else."
+  },
+  {
+    "Name": "Children",
+    "Description": "Books Written For Young Readers, Focusing On Simple Language And Age‑Appropriate Themes."
+  },
+  {
+    "Name": "Classic",
+    "Description": "TimeLess Works Recognized For Lasting Cultural, Artistic, Or Literary Value."
+  },
+  {
+    "Name": "Comedy",
+    "Description": "Light‑Hearted Stories Designed To Amuse, Entertain, And Evoke Laughter."
+  },
+  {
+    "Name": "Contemporary",
+    "Description": "Fiction Set In The Present Day, Reflecting Modern Life And Issues."
+  },
+  {
+    "Name": "Crime",
+    "Description": "Stories Involving Criminal Acts, Investigations, And The Pursuit Of Justice."
+  },
+  {
+    "Name": "Drama",
+    "Description": "Emotion‑Driven Narratives Focused On Realistic Characters And Intense Conflicts."
+  },
+  {
+    "Name": "Dystopian",
+    "Description": "Stories Set In Oppressive Or NightMarish Societies, Often Exploring Political Or Social Themes."
+  },
+  {
+    "Name": "Fantasy",
+    "Description": "Fiction Featuring Magical Systems, Mythical Creatures, Or Entirely Invented Worlds."
+  },
+  {
+    "Name": "Fiction",
+    "Description": "Narrative Writing Based On Imagination Rather Than Factual Events."
+  },
+  {
+    "Name": "Graphic",
+    "Description": "Stories Told Through Illustrated Panels, Combining ArtWork With Narrative Text."
+  },
+  {
+    "Name": "Historical",
+    "Description": "Stories Or Texts Focused On Past Eras, Cultures, Or Events."
+  },
+  {
+    "Name": "Horror",
+    "Description": "Fiction Intended To Evoke Fear, Dread, Or PsychoLogical UnEase."
+  },
+  {
+    "Name": "Humor",
+    "Description": "Books Focused On Wit, Satire, And Comedic StoryTelling."
+  },
+  {
+    "Name": "Literary",
+    "Description": "Narratives Emphasizing Depth, Style, And Thematic Exploration."
+  },
+  {
+    "Name": "MetaPhysic",
+    "Description": "Books Exploring The Fundamental Nature Of Reality, Existence, Consciousness, And Universal Principles."
+  },
+  {
+    "Name": "Memoir",
+    "Description": "A Personal, First‑Person Account Of Specific Experiences Or Periods In An Author's Life."
+  },
+  {
+    "Name": "Mystery",
+    "Description": "Stories Centered On Solving Puzzles, Crimes, Or UnExplained Events."
+  },
+  {
+    "Name": "Nonfiction",
+    "Description": "Informational Or Factual Writing Based On Real Events, People, Or Concepts."
+  },
+  {
+    "Name": "Paranormal",
+    "Description": "Fiction Involving Supernatural Elements Such As Ghosts, Psychic Powers, Or UnExplained Phenomena."
+  },
+  {
+    "Name": "Philosophy",
+    "Description": "Books Exploring Ideas About Existence, Ethics, Knowledge, And Human Nature."
+  },
+  {
+    "Name": "Poetry",
+    "Description": "Literary Works Written In Verse, Emphasizing Rhythm, Imagery, And Emotional Expression."
+  },
+  {
+    "Name": "Psychological",
+    "Description": "Stories Or Texts Focused On The Inner Workings Of The Mind, Emotion, End Behavior."
+  },
+  {
+    "Name": "Religious",
+    "Description": "Books Exploring Inner Growth, Consciousness, Meaning, And The Connection Between Self And The Universe."
+  },
+  {
+    "Name": "Romance",
+    "Description": "Stories Focused On RelationShips, Emotional Bonds, And Romantic Love."
+  },
+  {
+    "Name": "Science",
+    "Description": "Books Explaining Scientific Principles, Discoveries, And The Natural World Through Factual, Research‑Based Content."
+  },
+  {
+    "Name": "Self‑Help",
+    "Description": "Books Offering Guidance For Personal Growth, Habits, Mindset, Or Emotional Well‑Being."
+  },
+  {
+    "Name": "Short",
+    "Description": "Stories Or Texts That Are Brief, Focusing On A Single Idea, Moment, Or Character Arc."
+  },
+  {
+    "Name": "Story",
+    "Description": "Narrative Works Presenting Events, Characters, And Themes In Structured Form."
+  },
+  {
+    "Name": "Thriller",
+    "Description": "Fast‑Paced Stories Built On Tension, Danger, And High Emotional Stakes."
+  },
+  {
+    "Name": "Travel",
+    "Description": "Books Describing Journeys, Cultures, And Experiences From Around The World."
+  },
+  {
+    "Name": "Urban",
+    "Description": "Stories Set In Modern City Environments, Often Blending Realism With Other Thematic Elements."
+  },
+  {
+    "Name": "Young",
+    "Description": "Books Aimed At Younger Audiences, Focusing On Themes Of Growth And Identity."
+  }
+]

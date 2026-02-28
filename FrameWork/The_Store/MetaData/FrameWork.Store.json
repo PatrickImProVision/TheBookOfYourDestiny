@@ -11,7 +11,24 @@
 					"Title": "",
 					"SubTitle": "",
 					"Description": "",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"A": {
 					"Label": ["A", "A", "A"],
@@ -19,7 +36,24 @@
 					"Title": "The Book Of Your Destiny Development",
 					"SubTitle": "The Fundamental Stone Of Author",
 					"Description": "The Story And WisDom Is About The Book Author And The Unique Idea Of A Very ValuAble Book Full Of Heritage.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"B": {
 					"Label": ["B", "B", "B"],
@@ -27,7 +61,24 @@
 					"Title": "The Book Of Your Destiny Language",
 					"SubTitle": "The Fundamental Stone Of Bible",
 					"Description": "The Language And Invention Is About The Bible Knowledge Of All ImPortant Attributes That Design The Universal Language Of The Destiny.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"0": {
 					"Label": ["0", "0", "0"],
@@ -35,7 +86,24 @@
 					"Title": "The Book Of Your Gods",
 					"SubTitle": "The Fundamental Stone Of Power",
 					"Description": "The Birth And Heritage Are Based On The Idea That Life Begins As A Water‑Based Cell Containing The Fundamental Information Required For Evolution And Development.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"1": {
 					"Label": ["1", "1", "1"],
@@ -43,7 +111,24 @@
 					"Title": "The Book Of Your Faith",
 					"SubTitle": "The Fundamental Stone Of Trust",
 					"Description": "The Faith And Physics Are Both Important Parts Of Life, Because Trust And Reputation Rely On Beliefs And Evidence That Are Shared Across All Forms Of Existence.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"2": {
 					"Label": ["2", "2", "2"],
@@ -51,7 +136,24 @@
 					"Title": "The Book Of Your Love",
 					"SubTitle": "The Fundamental Stone Of PurPose",
 					"Description": "The Love And Design Guide Us Through An Important Part Of Life, Because They Function As Fundamental Instructions That Help Us Share This Emotion And UnderStand Our Purpose.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"3": {
 					"Label": ["3", "3", "3"],
@@ -59,7 +161,24 @@
 					"Title": "The Book Of Your Children",
 					"SubTitle": "The Fundamental Stone Of Aspiration",
 					"Description": "The Family And Aspiration Form Another Fundamental Condition, Where Reproduction Leads Us To Have Children And Gives Us A New Purpose In Life.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"4": {
 					"Label": ["4", "4", "4"],
@@ -67,7 +186,24 @@
 					"Title": "The Book Of Your Support",
 					"SubTitle": "The Fundamental Stone Of Determination",
 					"Description": "The Support And Determination Play A Major Role In Developing Knowledge, Where Art And Science Help You Identify Your Talent, Apply It In Business, And UnLock Your Potential.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"5": {
 					"Label": ["5", "5", "5"],
@@ -75,7 +211,24 @@
 					"Title": "The Book Of Your Personality",
 					"SubTitle": "The Fundamental Stone Of Attributes",
 					"Description": "The Existence And Personality Are Shaped By Both Good And Evil, Forming The Basis For Who You Become Through Physical Evolution And The Development Of Knowledge.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"6": {
 					"Label": ["6", "6", "6"],
@@ -83,7 +236,24 @@
 					"Title": "The Book Of Your Prime Directives",
 					"SubTitle": "The Fundamental Stone Of Good",
 					"Description": "The Good Deeds And Life Experiences Teach Us The Behaviours And Actions That Are Commonly Accepted By Most Or Even All People.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"7": {
 					"Label": ["7", "7", "7"],
@@ -91,7 +261,24 @@
 					"Title": "The Book Of Your Justice",
 					"SubTitle": "The Fundamental Stone Of Promise",
 					"Description": "The Rules And Justice Give Us Assurance Of Fairness And A Promise Of Order In Life, Which Many Believe Is Guaranteed By God.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"8": {
 					"Label": ["8", "8", "8"],
@@ -99,7 +286,24 @@
 					"Title": "The Book Of Your Destiny Plan",
 					"SubTitle": "The Fundamental Stone Of Time",
 					"Description": "The Decisions And Planning Help Identify The Fundamental Choices In Life, Enabling You To Make The Right And Wise Choices That Determine Your Direction.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				},
 				"9": {
 					"Label": ["9", "9", "9"],
@@ -107,7 +311,24 @@
 					"Title": "The Book Of Your Resistance",
 					"SubTitle": "The Fundamental Stone Of Evil",
 					"Description": "The Evil And Death Teach Us Which Behaviours And Actions Are Harmful And Therefore Rejected By Most If Not All People.",
-					"Index": {}
+					"Index": {
+						"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+						"Content": {
+							"Genre": {},
+							"Case": {},
+							"Book": {},
+							"Language": {},
+							"Index": {},
+							"PreFace": {},
+							"FlagStone": {},
+							"FullStory": {},
+							"Knowledge": {},
+							"Gift": {},
+							"BibleLegend": {},
+							"LeaderShip": {},
+							"Value": {}
+						}
+					}
 				}
 			}
 		}

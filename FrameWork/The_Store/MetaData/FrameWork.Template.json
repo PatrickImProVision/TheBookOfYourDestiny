@@ -1,12 +1,100 @@
 {
 		"Template": {
 			"Structure": {
-				"Type": {
-					"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
-					"Label": ["AAA", "BBB", "000", "111", "222", "333", "444", "555", "666", "777", "888", "999"],
-					"Category": ["Idea", "Expression", "Origin", "Conviction", "Devotion", "Legacy", "Foundation", "Being", "Virtue", "Covenant", "Authority", "Dominion"],
-					"": ["Case", "Book", "Topic", "Chapter", "Page"],
-					"Value": ["", "", "", "", "", "", "", "", "", "", "", ""]
+				"Id": "Type",
+				"Type": ["Genre", "Case", "Book", "Index", "Language", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+				"Content": {
+					"Genre": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["Idea", "Expression", "Origin", "Conviction", "Devotion", "Legacy", "Foundation", "Being", "Virtue", "Covenant", "Authority", "Dominion"],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Case": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],["Genre", "Case", "Book", "Index", "Content", "Topic", "Chapter", "Page"],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Book": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["UnderStanding", "Invention", "Gods", "Faith", "Love", "Family", "Support", "Prophecy", "Prime Directives", "Justice", "Plan", "Resistance"],
+						"Label": ["AAA", "BBB", "000", "111", "222", "333", "444", "555", "666", "777", "888", "999"],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Index": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Language": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"PreFace": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"FlagStone": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"FullStory": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Knowledge": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Gift": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"BibleLegend": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"LeaderShip": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					},
+					"Value": {
+						"Id": "Type",
+						"Type": ["Name", "Label", "Description"],
+						"Name": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Label": ["", "", "", "", "", "", "", "", "", "", "", ""],
+						"Description": ["", "", "", "", "", "", "", "", "", "", "", ""]
+					}
 				}
 			},
 			"Rendering": {
@@ -35,7 +123,8 @@
 			},
 			"Book": {
 				"Id": "Type",
-				"Topic": {
+				"Type": ["Genre", "Case", "Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip", "Value"],
+				"Content": {
 					"Type": ["Book", "Language", "Index", "PreFace", "FlagStone", "FullStory", "Knowledge", "Gift", "BibleLegend", "LeaderShip"],
 					"Name": ["The Book", "The Language", "The Index", "The PreFace", "The FlagStone", "The FullStory", "The Knowledge", "The Gift", "The Bible Legend", "The LeaderShip"],
 					"Description": ["Book Description", "Language Description", "Index Description", "PreFace Description", "FlagStone Description", "FullStory Description", "Knowledge Description", "Gift Description", "BibleLegend Description", "LeaderShip Description"],

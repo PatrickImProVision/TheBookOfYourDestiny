@@ -1,5 +1,8 @@
 {
     "Media": {
+		"Name": "E-Media",
+		"Label": "The E-Media Of E-Books",
+		"Description": "The E-Media For E-Books As Visual Inspiration.",
         "Book": {
             "Cover": {
                 "Logo": "The_Image/The_Logo.png",

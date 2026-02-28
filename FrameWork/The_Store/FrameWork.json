@@ -26,6 +26,7 @@
 		"Files": {
 			"Development": {
 				"Environment": "MetaData/FrameWork.Environment.json",
+				"Genre": "MetaData/FrameWork.Genre.json",
 				"Language": "MetaData/FrameWork.Language.json",
 				"Template": "MetaData/FrameWork.Template.json",
 				"Media": "MetaData/FrameWork.Media.json",
@@ -35,6 +36,7 @@
 			
 			"Test": {
 				"Environment": "MetaData/FrameWork.Environment.json",
+				"Genre": "MetaData/FrameWork.Genre.json",
 				"Language": "MetaData/FrameWork.Language.json",
 				"Template": "MetaData/FrameWork.Template.json",
 				"Media": "MetaData/FrameWork.Media.json",
@@ -44,6 +46,7 @@
 			
 			"Production": {
 				"Environment": "MetaData/FrameWork.Environment.json",
+				"Genre": "MetaData/FrameWork.Genre.json",
 				"Language": "MetaData/FrameWork.Language.json",
 				"Template": "MetaData/FrameWork.Template.json",
 				"Media": "MetaData/FrameWork.Media.json",
@@ -53,6 +56,7 @@
 			
 			"Store": {
 				"Environment": "MetaData/FrameWork.Environment.json",
+				"Genre": "MetaData/FrameWork.Genre.json",
 				"Language": "MetaData/FrameWork.Language.json",
 				"Template": "MetaData/FrameWork.Template.json",
 				"Media": "MetaData/FrameWork.Media.json",
